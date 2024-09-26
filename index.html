@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Company Directory Portal</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Employee Registration Form -->
+        <section id="registration-form">
+            <h2>Employee Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter employee name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" placeholder="Enter department" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter location" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <!-- Employee List -->
+        <section id="employee-list">
+            <h2>Employee List</h2>
+            <ul>
+                <li>Rinitha</li>
+                <li> Smitha</li>
+                <li>Roshan</li>
+            </ul>
+        </section>
+
+        <!-- Employee Details Table -->
+        <section id="employee-details">
+            <h2>Employee Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Department</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rinitha</td>
+                        <td>rinitha@gmail.com</td>
+                        <td>Finance</td>
+                        <td>Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <td>Smitha</td>
+                        <td>smitha345@gmail.com</td>
+                        <td>Marketing</td>
+                        <td>Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <td>Roshan</td>
+                        <td>roshan77@gamil.com</td>
+                        <td>IT</td>
+                        <td>Chennai</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Embedded Map -->
+        <section id="map-section">
+            <h2>Office Location Map</h2>
+            <iframe src="https://maps.google.com/maps?q=Innomatics%20Research%20Labs%2C%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Company Directory Portal</p>
+    </footer>
+</body>
+</html>
